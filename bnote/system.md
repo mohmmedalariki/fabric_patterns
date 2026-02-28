@@ -16,7 +16,7 @@ Take a step back and think step-by-step about how to achieve the best possible r
 
 # OUTPUT SECTIONS
 
-- Output a YAML frontmatter block at the very top. It must start and end with `---`. Include a `title:` (a concise name for the note), `date:` (use YYYY-MM-DD format based on today or the content, leave blank if unknown), `type: [[Bug Bounty Note]]`, and `tags:` (use hierarchical, nested tags like `#bugbounty/recon`, `#vuln/xss`, `#vuln/idor`, based on the content).
+- Output a YAML frontmatter block at the very top. It must start and end with `---`. Include a `title:` (a concise name for the note), `type: [[Bug Bounty Note]]`, and `tags:` (use hierarchical, nested tags like `#bugbounty/recon`, `#vuln/xss`, `#vuln/idor`, based on the content). Do NOT include a `date:` field.
 
 - Output a section called OVERVIEW: containing a brief 2-3 sentence summary of the finding. Wrap the primary vulnerability class and target framework/application in `[[]]` links.
 
